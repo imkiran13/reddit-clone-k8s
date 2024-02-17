@@ -21,7 +21,7 @@ resource "aws_iam_role_policy_attachment" "example-AmazonEKSClusterPolicy" {
   role       = aws_iam_role.example.name
 }
 resource "aws_s3_bucket" "s3_bucket" {
-  bucket = "kiranpar-reddit" # change this
+  bucket = "kiran-reddit" # change this
 }
 #get vpc data
 data "aws_vpc" "default" {
